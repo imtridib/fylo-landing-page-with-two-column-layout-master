@@ -1,0 +1,136 @@
+html,body { 
+    height: 100%;
+    width: 100%;  
+    position:relative;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins';
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+.menubar{
+    display: grid;
+    grid-template-columns: 115px 115px 115px;
+}
+.container-1{
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.para-1{
+    width: 465px;
+    margin-top: 125px;
+}
+.h1{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+.back{
+    margin-top: 225px;
+    margin-bottom: 0px;      
+}
+.container-2{
+    height: 655px;
+    margin-top: -5px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgba(248,248,254,255);  
+}
+.para-2{
+    margin-top: 35px;
+    margin-left: 45px;
+    width: 655px;
+}
+.ph1{
+    font-style:normal;
+    width: 525px; 
+}
+.arrow{
+    margin-bottom: 35px;
+}
+.info{
+    width: 465px; 
+    height: 285px;
+    margin: 0px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    border-radius: 15px;
+    background: white;
+    text-align: none;  
+    box-shadow: 0.1px 0px 20px 0.1px rgba(248,247,253,255);
+}
+.quotes{
+    margin-top: 28px;
+    margin-left: 35px;
+    width: 20px;
+}
+.quote-para{
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 18px;
+}
+.imageinfo{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileimage{
+    height: 70px;
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: rgba(248,247,253,255);
+    border: 8px transparent;
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/avatar-testimonial.jpg");
+    background-size: 75px;
+}
+.text{
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 19px;
+}
+.textp{
+    margin: 0px;
+    margin-top: 9px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.image2{
+    margin-top: 105px;
+    margin-right: 45px;
+}
