@@ -26,6 +26,9 @@ h6 {
     display: grid;
     grid-template-columns: 115px 115px 115px;
 }
+.m1{
+    margin-left: auto;
+}
 .container-1{
     margin-top: 25px;
     margin-left: 45px;
@@ -71,8 +74,21 @@ h6 {
     width: 525px; 
 }
 .arrow{
+    display: flex;
+    flex-direction: row;
     margin-bottom: 35px;
+    color: #64b4a4; 
+    text-decoration: underline;
+    text-decoration-color: #64b4a4;
 }
+.tex{
+    
+}
+.arr{
+    margin-top: 14px;
+    margin-left: 8px;
+}
+
 .info{
     width: 465px; 
     height: 285px;
@@ -134,3 +150,26 @@ h6 {
     margin-top: 105px;
     margin-right: 45px;
 }
+.container-3{
+    color: white;
+    height: 285px;
+    margin: 0px;
+    background-color:#585c8c;
+    display: flex;
+    flex-direction: row;
+}
+.t1{
+    margin-left: 36px;
+    margin-top: 65px;
+    width: 385px;
+}
+.text-2{
+    margin-left: 36px;
+    margin-top: 0px;
+    width: 385px;
+}
+.text-field{
+    display: flex;
+    flex-direction: column;
+}
+
