@@ -45,6 +45,25 @@ h6 {
     font-size: 22px;
 }
 
+.email1{
+    display: flex;
+    flex-direction: row;   
+}
+
+.email{
+    height: 50px;
+    width: 255px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+.button1{
+    background-color: rgb(47, 0, 255);
+    margin-left: 15px;
+    color:white;
+    height: 56px;
+    width: 185px;
+    border-radius: 8px;
+}
 
 
 
@@ -88,7 +107,6 @@ h6 {
     margin-top: 14px;
     margin-left: 8px;
 }
-
 .info{
     width: 465px; 
     height: 285px;
@@ -160,10 +178,28 @@ h6 {
     justify-content: space-between;
 }
 
-.button-2{
-   margin: auto;
-   margin-right: 55px;
+.email2{
+    display: flex;
+    flex-direction: row;  
+    margin-top: 115px;
+    margin-right: 65px; 
 }
+
+.email{
+    height: 50px;
+    width: 255px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+.button1{
+    background-color: rgb(72, 75, 208);
+    margin-left: 15px;
+    color:white;
+    height: 56px;
+    width: 185px;
+    border-radius: 8px;
+}
+
 
 .t1{
     margin-left: 36px;
@@ -249,14 +285,14 @@ h6 {
     margin-left: 10px;
 }
 
-.email{   
+.emails{   
     display: flex;
     flex-direction: row;
 }
-.email img{
+.emails img{
     padding-top: 15px;
 }
-.email p{
+.emails p{
     margin-left: 10px;
 }
 
