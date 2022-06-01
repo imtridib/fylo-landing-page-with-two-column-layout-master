@@ -621,12 +621,14 @@ h6 {
     
     
     .container-4{
+        height: 605px;
         width: 100%;
         margin:0px;    
-        display: flex;
         background-color: rgb(5, 40, 51);
+        display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content:unset;
+        align-items: center;
         padding: 0px;
         color: white;
     }
@@ -635,9 +637,10 @@ h6 {
     .icon2{
         max-height: 30px;
         max-width: 170px;
-        margin-top:35px;
-        margin-bottom: 25px;
-        margin-left: 40px; 
+        margin-top:55px;
+        margin-bottom: 12px;
+        margin-left: 105px; 
+        align-self: flex-start;
     }
     
     .icon2 img{
@@ -646,17 +649,22 @@ h6 {
         width: 160px;    
     }
     .main2{
+        width: 100%; 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         font-size: 14px;
+        margin-left: 115px; 
+        margin-top: 15px;
+        margin-bottom: 25px;
+        align-self: flex-start;
     }
     
     .contacts{
         display: flex;
         flex-direction: column;
         padding-top: 12px;
-        padding-left: 40px;
+        padding-left: 0px;
     }
     .location{   
         display: flex;
@@ -699,11 +707,11 @@ h6 {
         padding-left: 0px;
     }
     .e{
-        margin-top: 10px;
-        margin-right: 170px;
+        margin-top: 15px;
+        margin-right: 245px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:center;
     } 
     
     .fb{
@@ -766,8 +774,7 @@ h6 {
     }
     .de{
         font-size: 12px;
-        margin-right: 160px;
-        text-align:right;
-        
+        margin-right: 0px;        
+        text-align: center;
     }
 }
