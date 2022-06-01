@@ -386,7 +386,8 @@ h6 {
     html,body { 
         height: 100%;
         width: 768px;  
-        position:relative;
+        position:fixed;
+        display: inline;
         font-family: 'Open Sans';
         margin: 0;
     }
