@@ -649,7 +649,7 @@ h6 {
         width: 160px;    
     }
     .main2{
-        width: 100%; 
+        width: 768px; 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
