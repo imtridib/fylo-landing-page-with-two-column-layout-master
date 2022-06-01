@@ -4,7 +4,6 @@ html,body {
     position:relative;
     font-family: 'Open Sans';
     margin: 0;
-    overflow-x: hidden;
 }
 
 h1,
@@ -389,6 +388,8 @@ h6 {
         position:relative;
         font-family: 'Open Sans';
         margin: 0;
+        
+    overflow-x: hidden;
     }
     
     h1,
