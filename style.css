@@ -1,7 +1,7 @@
 html,body { 
     height: 100%;
     width: 100%;  
-    position:fixed;
+    position:relative;
     display: inline;
     font-family: 'Open Sans';
     margin: 0;
@@ -385,9 +385,9 @@ h6 {
 @media (max-width: 768px ){
     html,body { 
         height: 100%;
-        width: 768px;  
-        position:fixed;
+        width: 768px; 
         display: inline;
+        position:relative;
         font-family: 'Open Sans';
         margin: 0;
     }
