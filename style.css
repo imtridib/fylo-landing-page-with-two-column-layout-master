@@ -786,7 +786,7 @@ h6 {
 
 @media (max-width: 425px ){
     html,body { 
-        height: 58px;
+        height: 100%;
         width: 768px;  
         position:relative;
         font-family: 'Open Sans';
