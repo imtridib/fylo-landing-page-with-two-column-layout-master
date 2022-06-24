@@ -786,13 +786,13 @@ h6 {
 
 @media (max-width: 425px ){
     html,body { 
-        height: 617px;
-        width: 768px;  
+        height: 100%;
+        width: 425px;  
         position:relative;
         font-family: 'Open Sans';
         margin: 0;        
         overflow-x:hidden;
-        overflow-y: none;
+        overflow-y:scroll;
     }
     
     h1,
